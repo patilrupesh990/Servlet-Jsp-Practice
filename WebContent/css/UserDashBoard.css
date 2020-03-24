@@ -1,0 +1,244 @@
+/*   
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+Remove the navbar's default margin-bottom and rounded borders
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body,html {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  background: #ededed;
+  linear-gradient(90deg, rgba(62,81,81,1) 0%, rgba(222,203,164,1) 100%);
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  height: 50px;
+  border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #FFF;
+  box-shadow: 1px 5px 8px #888888;
+}
+
+.navbar-toggle {
+  background: #4b4276;
+  border: none;
+}
+.menu-items-a{
+	background-color: #ddd;
+  color: black;
+}
+.menu-items{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #ddd;
+  color: black;
+}
+.collapse{
+  border: none;
+}
+
+.navbar-brand img{
+  top: 0;
+  position: relative;
+  max-width: 150px;
+  height: auto;
+  margin-top: -15px;
+}
+
+.navbar .container-fluid .nav{
+  line-height: 70px;
+  padding-right: 20px;
+  padding-top: 5.5px;
+}
+
+
+
+Set height of the grid so .sidenav can be 100% (adjust as needed)
+.row.content {height: 450px}
+.sidebar {height: 450px}
+
+.body-container{
+  margin-left: 210px;
+S  margin-right: 10px;
+}
+
+
+Dropdown Menu For User Profile
+.collapse ul li{
+  margin: auto;
+}
+.collapse ul li:hover,
+ .collapse ul li a.dropdown-toggle:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.collapse ul li ul.dropdown-menu li a{
+  line-height: 30px;
+}
+
+.well{
+  background: #FFF;
+  margin-top: 10px;
+
+}
+
+  .card-to-vt h5{background-color: #e9e4f0}
+  .card-to-pg h5{background-color: #e9e4f0}
+  .card-un-vi h5{background-color: #e9e4f0}
+  .card-bo-rt h5{background-color: #e9e4f0}
+
+
+  Set black background color, white text and some padding
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+
+.wrapper{
+  display: block;
+  top: 9.2%;
+  position: relative;
+}
+.wrapper img{
+  position: relative;
+  width: 100px;
+  top: auto;
+  left: 45px;
+  margin: 5px 0;
+  border-radius: 50%;
+}
+.wrapper .sidebar{
+  top: 10%;
+  width: 200px;
+  height: 100%;
+  background: #4b4276;
+  padding: 30px 0px;
+  position: fixed;
+  border-top-right-radius: 45px;
+  box-shadow: 8px 8px 5px #888888;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 5px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.wrapper .sidebar .toggle-btn{
+  position: absolute;
+  left: 230px;
+  top: 20px;
+
+}
+.wrapper .sidebar .toggle-btn span{
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0;
+}
+
+.rightmenu{
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  background-color: #594f8d;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.wrapper .sidebar ul li.dropdown ul.rightmenu li a{
+  background-color: none;
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li.dropdown ul.rightmenu li:hover{
+  background-color: #4b4276;
+}
+.wrapper .sidebar ul li.dropdown ul.rightmenu li a:hover{
+  background: none;
+}
+.wrapper .sidebar ul li.dropdown ul.rightmenu li:hover a{
+ 
+}
+
+
+********************************************************************
+Table Design
+********************************************************************
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+} */

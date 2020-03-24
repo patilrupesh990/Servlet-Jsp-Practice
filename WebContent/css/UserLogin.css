@@ -1,0 +1,43 @@
+@import
+	url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css')
+	;
+
+html {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif, Arial, Helvetica;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	background: url(../images/sci5.jpg) no-repeat;
+	background-size: cover;
+}
+
+#form-div {
+	border-width: 1px;
+	border-color: #000;
+	border-radius:15px;
+	margin: auto;
+	padding: 10px;
+	width: 600px;
+	background-color: #B098D5;
+	opacity: 0.8;
+	align-items: center;
+	align-content: center;
+}
+
+#h2 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}

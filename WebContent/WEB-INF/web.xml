@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<welcome-file-list>
+		<welcome-file>Home.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.Home
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.UserLogin
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/log1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRegister</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.UserRegister
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegister</servlet-name>
+		<url-pattern>/reg1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SellerRegister</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.SellerRegister
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SellerRegister</servlet-name>
+		<url-pattern>/seller_register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SellerLogin</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.SellerLogin
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SellerLogin</servlet-name>
+		<url-pattern>/seller_login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddProduct</servlet-name>
+		<servlet-class>com.bridgelabz.shoppingcart.controller.AddProduct
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddProduct</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateProduct</servlet-name>
+		<jsp-file>/UpdateProductImpl.jsp</jsp-file>
+	</servlet>
+	<!--mapping -->
+	<servlet-mapping>
+		<servlet-name>UpdateProduct</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+</web-app>
